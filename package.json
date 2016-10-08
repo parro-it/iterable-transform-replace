@@ -3,12 +3,12 @@
   "version": "1.1.1",
   "description": "An iterable transform that replace specified item",
   "scripts": {
-    "test": "ava && xo --ignore example.js",
+    "test": "ava && xo --ignore example.js --ignore index.js",
     "setup": "rollup -f cjs main.js --output index.js",
-    "cover-test": "nyc ava && xo --ignore example.js",
+    "cover-test": "nyc ava && xo --ignore example.js --ignore index.js",
     "cover-publish": "nyc report --reporter=text-lcov | coveralls"
   },
-  "keywords": [],
+  "keywords": ["iterable", "replace", "functional", "curry"],
   "author": "Andrea Parodi <andrea@parro.it>",
   "license": "MIT",
   "files": [
