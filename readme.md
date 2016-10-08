@@ -2,7 +2,6 @@
 
 > An iterable transform that replace specified item
 
-background details relevant to understanding what this module does
 
 ## Usage
 
