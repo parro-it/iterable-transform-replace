@@ -6,17 +6,19 @@ background details relevant to understanding what this module does
 
 ## Usage
 
-description of the example
+This example replace `response` with `42`:
 
 ```js
-const iterableTransformReplace = require('iterable-transform-replace');
+const replace = require('iterable-transform-replace');
 
-console.log({iterableTransformReplace});
+const source = [1, 2, 'response', 3];
+console.log(Array.from(replace('response', 42, source)));
 ```
 
 This will output
 
 ```
+[1, 2, 42, 3]
 ```
 
 [![Travis Build Status](https://img.shields.io/travis/parro-it/iterable-transform-replace/master.svg)](http://travis-ci.org/parro-it/iterable-transform-replace)
@@ -28,10 +30,11 @@ This will output
 ## API
 
 ```js
-const iterableTransformReplace = (): object
+const iterableTransformReplace = (oldItem: any, newItem: any, source: Iterable): Iterable
 ```
 
-description of the function signature
+Given an iterable source object, return another iterablke with all items equal
+to `oldItem` replaced with `newItem`.
 
 ## Install
 
