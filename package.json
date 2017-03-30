@@ -1,12 +1,17 @@
 {
   "name": "iterable-transform-replace",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "An iterable transform that apply replace to all items",
   "scripts": {
     "test": "rollup -c && ava && xo --ignore example.js --ignore index.js",
     "setup": "rollup -c"
   },
-  "keywords": ["iterable", "replace", "functional", "curry"],
+  "keywords": [
+    "iterable",
+    "replace",
+    "functional",
+    "curry"
+  ],
   "author": "Andrea Parodi <andrea@parro.it>",
   "license": "MIT",
   "files": [
