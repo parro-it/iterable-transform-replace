@@ -1,6 +1,5 @@
-import 'babel-register';
 import test from 'ava';
-import replace from './main';
+import replace from '.';
 
 test('exports a function', t => {
 	t.is(typeof replace, 'function');
