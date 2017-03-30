@@ -1,5 +1,7 @@
 # iterable-transform-replace
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/iterable-transform-replace.svg)](https://greenkeeper.io/)
+
 > An iterable transform that replace specified item
 
 
