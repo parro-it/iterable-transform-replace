@@ -2,7 +2,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/iterable-transform-replace.svg)](https://greenkeeper.io/)
 
-> An iterable transform that replace specified item
+> An iterable transform that apply replace to all items
 
 
 ## Usage
