@@ -23,7 +23,7 @@
   "repository": "parro-it/iterable-transform-replace",
   "devDependencies": {
     "ava": "^0.21.0",
-    "rollup": "^0.41.6",
+    "rollup": "^0.47.2",
     "xo": "^0.18.1"
   },
   "dependencies": {
