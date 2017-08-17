@@ -22,8 +22,8 @@
   "jsnext:main": "main.js",
   "repository": "parro-it/iterable-transform-replace",
   "devDependencies": {
-    "ava": "^0.21.0",
     "rollup": "^0.47.2",
+    "ava": "^0.22.0",
     "xo": "^0.18.1"
   },
   "dependencies": {
